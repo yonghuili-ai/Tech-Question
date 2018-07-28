@@ -3,3 +3,6 @@ Q1: Explain at least 5 kinds of collections types and when you might use them. A
 1) Stack: Stack is a first-in, last-out ordered collection. Therefore, we can use it to store URLs history. The current page that is under viewing is on the top of the stack and the first page is at the base. 
 
 2) Queue: Queue is a first-in, first-out ordered collection. Queue is used in operating systems use a number of different queues to control processes within a computer. Queue is chosen when a resource is shared among multiple users consumers, such as printing tasks. 
+
+Q2:  Explain the difference between a process and thread. How are they related?
+A thread is a path to execute the program.  Process is program and state of all the threads executing in the program. Thus, the essential difference between a thread and a process is the work that each one is used to accomplish.Threads are used for small tasks, whereas processes are used for more 'heavyweight' tasks – basically the execution of applications. The overhead of process is more than a thread.
