@@ -14,3 +14,8 @@ I have downloaded data from Twitter API using multi-process. Another case is to 
 
 Q4: Explain the function of the GIL.
 Deadlock was a common problem happens during multi-thread. The Global Interpreter Lock is developed to prevent multi-thread from running CPython codes at the same time. With the popularization of multi-core CPU, the GIL could degrade performance and becames a bottleneck. 
+
+Q5: Describe three challenges of asynchronous, distributed programming
+Heterogeneity: Asynchronous programming needs to overcome heterogeneity from hardware devices, operating system, programming languages, network, etc. Middleware, which is a software layer, can be implemented to mask the heterogeneity of the network, hardware, operating system and programing languages. 
+Openness: The openness of distributed system is primarily determined by the degree of adding new resource-sharing services. Therefore, a well-defined distributed programming should be easy for developers to add new features or replace sub-systems. 
+Concurrency: When several clients attempt to access a shared resource at the same time, the asynchronous programming must be synchronized to keep the shared resource consistent. This can be achieved by standard technique such as semaphores. 
