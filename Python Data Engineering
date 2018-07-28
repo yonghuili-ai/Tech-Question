@@ -20,6 +20,9 @@ Heterogeneity: Asynchronous programming needs to overcome heterogeneity from har
 Openness: The openness of distributed system is primarily determined by the degree of adding new resource-sharing services. Therefore, a well-defined distributed programming should be easy for developers to add new features or replace sub-systems. 
 Concurrency: When several clients attempt to access a shared resource at the same time, the asynchronous programming must be synchronized to keep the shared resource consistent. This can be achieved by standard technique such as semaphores. 
 
-Q6: Have you used a publisher subscriber system? *
-
+Q6: Have you used a publisher subscriber system? 
 Yes, Kafka. Publish-subscribe is that publisher categorizes published messages into classes without knowledge of which subscriber. Kafka runs as a cluster on one or more servers, building real-time streaming data pipelines that get data between publisher and subscriber. 
+
+Q7: Have you programmed in a service oriented architecture before?
+No. However, I learned that SOA is a solution for making two software communicate to each other.
+
