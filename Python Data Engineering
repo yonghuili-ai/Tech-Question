@@ -19,3 +19,7 @@ Q5: Describe three challenges of asynchronous, distributed programming
 Heterogeneity: Asynchronous programming needs to overcome heterogeneity from hardware devices, operating system, programming languages, network, etc. Middleware, which is a software layer, can be implemented to mask the heterogeneity of the network, hardware, operating system and programing languages. 
 Openness: The openness of distributed system is primarily determined by the degree of adding new resource-sharing services. Therefore, a well-defined distributed programming should be easy for developers to add new features or replace sub-systems. 
 Concurrency: When several clients attempt to access a shared resource at the same time, the asynchronous programming must be synchronized to keep the shared resource consistent. This can be achieved by standard technique such as semaphores. 
+
+Q6: Have you used a publisher subscriber system? *
+
+Yes, Kafka. Publish-subscribe is that publisher categorizes published messages into classes without knowledge of which subscriber. Kafka runs as a cluster on one or more servers, building real-time streaming data pipelines that get data between publisher and subscriber. 
