@@ -6,3 +6,9 @@ Q1: Explain at least 5 kinds of collections types and when you might use them. A
 
 Q2:  Explain the difference between a process and thread. How are they related?
 A thread is a path to execute the program.  Process is program and state of all the threads executing in the program. Thus, the essential difference between a thread and a process is the work that each one is used to accomplish.Threads are used for small tasks, whereas processes are used for more 'heavyweight' tasks – basically the execution of applications. The overhead of process is more than a thread.
+
+Q3: 
+
+
+Q4: Explain the function of the GIL.
+Deadlock was a common problem happens during multi-thread. The Global Interpreter Lock is developed to prevent multi-thread from running CPython codes at the same time. With the popularization of multi-core CPU, the GIL could degrade performance and becames a bottleneck. 
