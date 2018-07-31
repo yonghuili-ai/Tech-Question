@@ -26,3 +26,20 @@ Yes, Kafka. Publish-subscribe is that publisher categorizes published messages i
 Q7: Have you programmed in a service oriented architecture before?
 No. However, I learned that SOA is a solution for making two software communicate to each other.
 
+Q11: Explain when, where and why you use: Fakes, Mocks and Stubs? How do these differ?
+Fakes, Mocks and Stubs are used in unit testing. They will replace class dependencies and allow isolation of class under test. Fake is used when the class being tested requires specific logic in the dependency. Mock is used when the test requires that the class performs specific actions on the dependency. Stub is used when data is required by the class but the process used to obtain it isn’t relevant to what is being tested. 
+
+- Fakes
+    Simplified implementation of a dependency
+    Usually code directly without the use of a framework
+    Does not provide direct validation of how the class uses the dependency
+- Stubs
+    Mechanism for injecting data directly into class
+    Created using a mocking framework
+    Do not provide validation of how the class use the dependency
+- Mocks
+    Mechanism for validating how a dependency is used by the class
+    Created using a mocking framework
+    Can provide data and/or logic required by the class
+
+
