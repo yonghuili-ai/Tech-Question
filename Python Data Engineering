@@ -26,6 +26,12 @@ Yes, Kafka. Publish-subscribe is that publisher categorizes published messages i
 Q7: Have you programmed in a service oriented architecture before?
 No. However, I learned that SOA is a solution for making two software communicate to each other.
 
+Q8: How would you debug network related issues for your application? 
+Firstly, we should identify if the network is down for everyone or just for us by checking at IsUp.me. Secondly, we could try restarting the equipment including PC, modem and router. If the problem persisted, we need to check physical connections. Then next is to run the network troubleshooter. There are many available in the market, such as Ping and Tracert. 
+
+Q9: Discuss your usage of OO design.
+In Python, Class and object are basic ways to implement OO design. For objects have similar attributes, I will define a class with custom constructor with arguments. For non-public methods and instance variables, private naming rules are used. To avoid name clashes with subclasses, mangling rules are applied. 
+
 
 Q10: Describe your approach to testing.
 I use unit testing and my approach is described as follows: 
