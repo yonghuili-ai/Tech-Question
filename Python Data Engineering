@@ -26,6 +26,17 @@ Yes, Kafka. Publish-subscribe is that publisher categorizes published messages i
 Q7: Have you programmed in a service oriented architecture before?
 No. However, I learned that SOA is a solution for making two software communicate to each other.
 
+
+Q10: Describe your approach to testing.
+I use unit testing and my approach is described as follows: 
+Step 1 - create a test module
+Step 2 - import unittest module and also the module we want to test
+Step 3 - create a test class inherits from unittest.TestCase, which gives access to many test capability within the class
+Step 4 - write method to test several cases, including normal and edge cases
+Step 5 - if the case is failed, we will check the code indicated from the assertion err
+
+
+
 Q11: Explain when, where and why you use: Fakes, Mocks and Stubs? How do these differ?
 Fakes, Mocks and Stubs are used in unit testing. They will replace class dependencies and allow isolation of class under test. Fake is used when the class being tested requires specific logic in the dependency. Mock is used when the test requires that the class performs specific actions on the dependency. Stub is used when data is required by the class but the process used to obtain it isn’t relevant to what is being tested. 
 
